@@ -1,17 +1,22 @@
 import streamlit as st
 
+st.warning("The extended project of this app's Research-Driven project is under development as my Final Year Project 'AyahVerse: A Qur’anic Scientific and Numerical Insights Explorer Using  Transformers, Agentic AI, and Reasoning'")
+
 st.title("📖 Purpose of This App")
 
-st.header("Abstract")
+st.header("Summary")
 
 st.markdown("""
-This app is dedicated to unveiling the profound and timeless wisdom of the Quran, revealed in the purest Arabic language. It highlights the unmatched linguistic miracle of the Quran that has challenged humanity for over 1400 years—no one has been able to produce even a single verse comparable in beauty, precision, and depth. Beyond its linguistic marvel, the Quran serves as an unambiguous, clear guide for humanity, offering lessons, moral principles, and signs (“Ayaat”) to reflect upon. These signs extend beyond scripture to the natural universe, inviting believers to explore scientific truths and the divine order underlying creation.
+This app is dedicated to unveiling the profound and timeless wisdom of the Quran, revealed in the purest Arabic language. It highlights the unmatched linguistic miracle of the Quran that has challenged humanity for over 1400 years, no one has been able to produce even a single verse comparable in beauty, precision, and depth. Beyond its linguistic marvel, the Quran serves as an unambiguous, clear guide for humanity, offering lessons, moral principles, and signs (“Ayaat”) to reflect upon. These signs extend beyond scripture to the natural universe, inviting believers to explore scientific truths and the divine order underlying creation.
             
 By bridging classical understanding with contemporary discoveries, this app aims to deepen faith (Iman), inspire intellectual reflection, and promote the application of Quranic principles to achieve moral excellence and intellectual advancement. It calls upon users to engage actively in deciphering the Quran’s signs and to embody its guidance for the prosperity of individuals and society at large.
+            
+---
 """)
 
+st.header("Introduction")
+
 st.markdown("""
----
 
 Quran is revealed in Arabic language, so the right essence of Arabic is only understood by Arabic speakers.
 
@@ -52,9 +57,9 @@ st.markdown("The Quran encourages us to travel, think and reflect on how creatio
 st.image("images/think_creation_created.png")
 
 st.markdown("""
-The Ayahs (signs) that people keep deciphering in the world are about scientific knowledge — about how the world works, and on which mathematical codes the universe is sustaining itself with the command of Almighty Allah.
+The Ayahs (signs) that people keep deciphering in the world are about scientific knowledge about how the world works, and on which mathematical codes the universe is sustaining itself with the command of Almighty Allah.
 
-Such Ayahs (signs), when they come true through scientific discoveries, are then discovered mentioned in the Quran — which was revealed 1446 years ago, When no one could even think about how these Ayahs (signs) would become clear in the future, they appear hundreds of years later in front of the believers. This increases their Iman and becomes a fascination towards working on a real great purpose — That purpose is not just to explain the Quran in the best possible way to the whole world as a superior book, but also to achieve the peak of humanity by expanding intelligence through thinking and reasoning about the universe from the right direction, and to make the world prosper based on the principles of knowledge, morality, and power.
+Such Ayahs (signs), when they come true through scientific discoveries, are then discovered mentioned in the Quran which was revealed 1446 years ago, When no one could even think about how these Ayahs (signs) would become clear in the future, they appear hundreds of years later in front of the believers. This increases their Iman and becomes a fascination towards working on a real great purpose That purpose is not just to explain the Quran in the best possible way to the whole world as a superior book, but also to achieve the peak of humanity by expanding intelligence through thinking and reasoning about the universe from the right direction, and to make the world prosper based on the principles of knowledge, morality, and power.
 
 The Muslims of the past, and Sahaba Akram R.A., have understood these and applied these, which is a source of great knowledge for us.
 

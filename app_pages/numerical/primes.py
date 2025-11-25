@@ -7,7 +7,7 @@ from utilities import calculate_total_prime_number_verses, count_arabic_letters,
 
 st.header("Prime Numbers & Other Special Number Patterns in the Quran")
 
-quran = pd.read_csv("The Quran Dataset.csv")
+quran = pd.read_csv("Dataset/The Quran Dataset.csv")
 
 surah_names, prime_verse_numbers, total_prime_verses = calculate_total_prime_number_verses(quran)
 
@@ -28,6 +28,8 @@ option = option_menu(
 )
 
 if option == "About Prime Numbers":
+    st.success("Status : Scientific Facts")
+    
     st.markdown("""
 > **Mathematics is the Queen of Sciences, and prime numbers are the Queen of Mathematics.**  
 > — *Carl Friedrich Gauss*
@@ -88,7 +90,7 @@ is the natural logarithm.
     st.markdown("""
     ## 🔢 Prime Numbers and the Number 7 in Nature and the Universe
 
-Prime numbers, especially **7**, appear repeatedly in natural structures, biological systems, and even spiritual symbolism. This isn’t just coincidence — it suggests **design, harmony, and mathematical depth** in the universe.
+Prime numbers, especially **7**, appear repeatedly in natural structures, biological systems, and even spiritual symbolism. This isn’t just coincidence; it suggests **design, harmony, and mathematical depth** in the universe.
 
 ---
 
@@ -131,6 +133,8 @@ Prime numbers, especially **7**, appear repeatedly in natural structures, biolog
 
 
 elif option == "Divine Literary Prime Number":
+    st.success("Status : Proved by Code, and Mathematical Calculations")
+
     st.markdown("##### This section focuses on finding out number of verses 6236 through prime surah verse numbers, and prime numbers considering surah verse numbers as indices")
     st.markdown("## Step 1: Total Prime Verses in Quran")
     st.markdown(
@@ -200,6 +204,8 @@ elif option == "Divine Literary Prime Number":
     )
 
 elif option == "Prime Number 19":
+    st.warning("Status : Not all claims are proven")
+
     st.markdown("""
     > **“Over it are nineteen [angels]. And We have made the number only a trial for the disbelievers…”**  
     > — Surah Al-Muddathir (74:30–31)
@@ -372,6 +378,8 @@ Now let's come to the Ijaz of the Quran, in which multiples of 19 is present man
     st.markdown("📌 **Note:** These facts are often studied under the topic of _Qur'anic numerical miracles_ or _code 19 theory_, but interpretations may vary among scholars.")
 
 if option == "Surah Ar - Rahman":
+    st.success("Status : Proved by Code, and Mathematical Calculations")
+
     st.header("Surah Ar - Rahman")
     prime_sum_upto_55th = sum(get_prime_nums_upto_nth(55))
     surah_55th = find_surah_no(quran, 55)

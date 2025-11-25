@@ -12,10 +12,7 @@ pages = {
     "Numerical Miracles": [
         st.Page("app_pages/numerical/intro.py", title="🔢 Intro to Numerical Miracles"),
         st.Page("app_pages/numerical/word_count.py", title="📊 Word Counts & Ratios"),
-        # st.Page("app_pages/numerical/huroof.py", title="🧩 Muqattaʿāt Encoding"),
         st.Page("app_pages/numerical/primes.py", title="🧮 Prime Numbers & Patterns"),
-        st.Page("app_pages/numerical/num_patterns_describes_content.py", title="📐 Numerical Patterns describes content"),
-        st.Page("app_pages/numerical/math_org_prove_and_challenge.py", title="⚖️📖 Challenge of Quran Math Harmony"),
         st.Page("app_pages/numerical/other_numbers.py", title="🔎 Numerical Patterns"),
     ],
 
@@ -24,7 +21,6 @@ pages = {
     st.Page("app_pages/biological/lessons_from_char_of_animals.py", title="🐾 Lessons from Animal Behavior"),
     st.Page("app_pages/biological/creation_in_pairs.py", title="👥 Creation in Pairs"),
     st.Page("app_pages/biological/embrology.py", title="🧬 Embryology in the Qur'an"),
-    st.Page("app_pages/biological/creating_phases_of_humans.py", title="👴 Phases of Human Creation"),
 ],
 
 "Cosmology & Astronomy": [

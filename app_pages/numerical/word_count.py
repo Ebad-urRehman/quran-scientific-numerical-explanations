@@ -1,63 +1,7 @@
-# import streamlit as st
-
-# word_counts_options = ["Angels and Devils", "World and Hereafter", "Days, Month, and Years Count"]
-
-# st.title("Word Count Balance, or ratio shows something")
-# with st.sidebar:
-#     selected = st.radio("Select an option to display", word_counts_options, index=0, key="word_counts")
-# st.markdown("## Word Counts & Ratios")
-# st.markdown(
-#     """
-#     This page explores the word counts and ratios of specific terms in the Quran, highlighting the balance and harmony in their usage.
-    
-#     - **Angels and Devils**: The Quran mentions angels 88 times and devils 88 times, showing a perfect balance.
-#     - **World and Hereafter**: The terms 'world' and 'hereafter' are mentioned 115 times each, emphasizing their equal importance.
-#     - **Days, Month, and Years Count**: The Quran mentions 'day' 365 times, 'month' 12 times, and 'year' 19 times, reflecting a consistent numerical pattern.
-    
-#     These examples illustrate the Quran's intricate numerical structure and its profound significance.
-#     """
-# )
-
-# if selected == "Angels and Devils":
-#     st.markdown("### Angels and Devils")
-#     st.markdown(
-#         """
-#         The Quran mentions **angels** 88 times and **devils** 88 times, showing a perfect balance in their representation.
-        
-#         - **Angels**: 88 occurrences
-#         - **Devils**: 88 occurrences
-        
-#         This balance highlights the duality of good and evil in the Quranic narrative.
-#         """
-#     )
-# elif selected == "World and Hereafter":
-#     st.markdown("### World and Hereafter")
-#     st.markdown(
-#         """
-#         The terms **world** and **hereafter** are mentioned 115 times each, emphasizing their equal importance in the Quran.
-        
-#         - **World**: 115 occurrences
-#         - **Hereafter**: 115 occurrences
-        
-#         This balance underscores the Quran's focus on both the temporal and eternal aspects of existence.
-#         """
-#     )
-# elif selected == "Days, Month, and Years Count":
-#     st.markdown("### Days, Month, and Years Count")
-#     st.markdown(
-#         """
-#         The Quran mentions **day** 365 times, **month** 12 times, and **year** 19 times, reflecting a consistent numerical pattern.
-        
-#         - **Day**: 365 occurrences
-#         - **Month**: 12 occurrences
-#         - **Year**: 19 occurrences
-        
-#         This numerical harmony illustrates the Quran's intricate structure and its profound significance in understanding time.
-#         """
-#     )
-
 import streamlit as st
 import matplotlib.pyplot as plt
+
+st.warning("Not all words are counted manually or automatically for verification by us")
 
 st.title("📊 Qur'anic Word Counts & Ratio Miracles")
 st.markdown("Explore mathematically balanced word frequencies and linguistic patterns in the Qur’an that point to deeper meaning and divine authorship.")
@@ -99,7 +43,7 @@ st.subheader("🧮 Ratio Patterns and Miracles")
 
 st.markdown("""
 **1. "Qul" vs "Qālū"**  
-- Both appear exactly **332 times** — a perfect dialogue symmetry.
+- Both appear exactly **332 times**; a perfect dialogue symmetry.
 
 **2. "Angels" vs "Devil"**  
 - *Malāʾikah* (Angels): 88 times  

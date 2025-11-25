@@ -5,7 +5,7 @@ from utilities import normalize_arabic_letters, remove_global_duplicates, remove
 
 st.header("Numerical Patterns Describing Content")
 
-quran = pd.read_csv("The Quran Dataset.csv")
+quran = pd.read_csv("Dataset/The Quran Dataset.csv")
 
 with st.sidebar:
     option = st.radio(
