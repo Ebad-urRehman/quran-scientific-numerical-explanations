@@ -63,8 +63,8 @@ Answer:
 
 # Streamlit chatbot UI
 st.title("📘 Qur'an and Mathematics QA Chatbot")
-st.info("- This is a specialized model trained on Qur'anic books and mathematical studies.")
-
+st.info("- This is a specialized model trained on Following Qur'anic books and mathematical studies.")
+st.markdown("""- The resources are available in dataset folder""")
 # Initialize chat history
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
