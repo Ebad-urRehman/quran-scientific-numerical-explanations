@@ -6,6 +6,7 @@ from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 import json
 from datetime import datetime
+import os
 
 # Load FAISS index and document chunks
 index = faiss.read_index("models/quran_math_index.faiss")
@@ -16,8 +17,13 @@ with open("models/quran_math_chunks.pkl", "rb") as f:
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Initialize OpenAI client
-api_key = st.secrets["api_key"]["openai"]
-client = OpenAI(api_key=api_key)
+try:
+    api_key = st.secrets["api_key"]["openai"]
+    client = OpenAI(api_key=api_key)
+
+except:
+    client = OpenAI(api_key=os.getenv("openai_api_key"))
+
 
 # Function to retrieve context from vector index
 def retrieve_context(query, top_k=10):
