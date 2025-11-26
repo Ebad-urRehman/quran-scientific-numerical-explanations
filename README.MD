@@ -1,9 +1,7 @@
 # Quran Scientific & Numerical Explanations
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([YOUR_DEPLOYED_APP_LINK_HERE](http://quran-scientific-numerical-explanations.streamlit.app/))
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Main_App-FF4B4B?style=for-the-badge&logo=streamlit)](http://quran-scientific-numerical-explanations.streamlit.app/) [![Streamlit Chatbot](https://img.shields.io/badge/Streamlit-RAG_Chatbot-FF4B4B?style=for-the-badge&logo=streamlit)](http://quran-scientific-numerical-explanations.streamlit.app/chatbot)
 
-
----
 
 ## 📌 Project Details
 > **Note :**
@@ -12,7 +10,7 @@
 ---
 
 ## 📖 Overview
-**Quran Scientific & Numerical Explanations** is an interactive Streamlit application designed to bridge the gap between quantitative text analysis and theological study. It serves as a digital companion that visualizes numerical patterns, calculates numerical values, and provides scientific context to specific verses.
+**Quran Scientific & Numerical Explanations** is an descriptive Streamlit application with a designed to bridge the gap between quantitative text analysis and theological study. It serves as a digital companion that visualizes numerical patterns, already calculated numerical values for various claims, and provides scientific context to specific verses. 
 
 The tool aggregates data from multiple sources to provide users with a "data-driven" perspective on Quran, allowing for exploration of numerical symmetry and scientific correlations mentioned in modern exegesis.
 
